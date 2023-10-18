@@ -125,9 +125,9 @@ const TeamSection = () => {
 				{teamData.map((member, index) => (
 					<div
 						key={index}
-						className='relative object-cover transition duration-200 hover:shadow-xl hover:scale-110 flex items-center justify-center flex-col gap-8 p-5 w-72 h-full bg-gray-100 border rounded-2xl pt-16 mt-12'
+						className='relative object-cover transition duration-200 hover:shadow-xl hover:scale-110 flex items-center justify-center flex-col gap-4 p-5 w-72 h-full bg-gray-100 border rounded-2xl pt-16 mt-12'
 					>
-						<div className='flex justify-center sm:pt-4 sm:pb-6 absolute -top-16 left-1/2 transform -translate-x-1/2'>
+						<div className='flex justify-center sm:pt-4 sm:pb-6 absolute -top-12 sm:-top-16 left-1/2 transform -translate-x-1/2'>
 							<img
 								src={member.image}
 								className='w-24 h-24 rounded-full object-cover transition duration-200 hover:scale-110'
